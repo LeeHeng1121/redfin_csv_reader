@@ -1,3 +1,3 @@
 if __name__ == '__main__':
-    output = open('all_counties.txt', 'w')
-    output.write("???")
+    with open('all_counties.txt', 'w') as output:
+        output.write("???")
